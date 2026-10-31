@@ -5,12 +5,11 @@ I build whole systems and bring the receipts. Warner Robins, GA.
 
 ## Live right now
 - **LoBO** — a production AI-agent operating system I designed and run daily: routing, claim verification, durable jobs, persistent memory, multi-provider execution. Console: https://lobo-app-zb8y.onrender.com · Chat: https://lobo-chat-app.onrender.com
-- **NDRAP** — music platform with a 42-song live catalog (song-card battles, listen-to-earn)
+- **NDRAP** — music platform with a 42-song live catalog: collectible song cards and card battles
 
 ## The deep work [WALKTHROUGH — private pre-LLC, happy to walk any of it live]
-- **Level0** — a deterministic finite-state kernel: my spec (16 states, 9 stations, double gate, proof seals), implemented in JS + Go + a rebuilt protocol line — all passing one 14-vector conformance suite with byte-identical seals
-- **App Builders Kernel** — the builders' job layer over that kernel (v0.1.0)
-- **Six AI app builders** · **Georgia Skins** multiplayer engine (3,045 checks) · **RV-ADK** (83+ skills kit) · **mastering-kernel** (measured audio pipeline)
+- **Level0** — a private systems project, in development
+- **Six AI app builders** · **Georgia Skins** multiplayer engine (3,045 checks) · **RV-ADK** (83+ skills kit) · audio mastering tooling
 - A 300+ repo estate run under written discipline: two-gate releases, red-team rotation, every project inventoried
 
 ## What I sell
