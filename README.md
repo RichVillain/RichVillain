@@ -1,19 +1,56 @@
-# Kimani Dudley — Rich Villain
-**AI Agent & Full-Stack Developer | TypeScript · Python · LLM Systems | Music-Tech Builder**
+# Rich Villain
 
-I build whole systems and bring the receipts. Warner Robins, GA.
+**Full-Stack Developer | Systems Architecture | AI & Agent Infrastructure | Product Engineering**
 
-## Live right now
-- **LoBO** — a production AI-agent operating system I designed and run daily: routing, claim verification, durable jobs, persistent memory, multi-provider execution. Console: https://lobo-app-zb8y.onrender.com · Chat: https://lobo-chat-app.onrender.com
-- **NDRAP** — music platform with a 42-song live catalog: collectible song cards and card battles
+I design and develop software across full-stack applications, systems architecture, AI-assisted workflows, and creative technology.
 
-## The deep work [WALKTHROUGH — private pre-LLC, happy to walk any of it live]
-- **Level0** — a private systems project, in development
-- **Six AI app builders** · **Georgia Skins** multiplayer engine (3,045 checks) · **RV-ADK** (83+ skills kit) · audio mastering tooling
-- A 300+ repo estate run under written discipline: two-gate releases, red-team rotation, every project inventoried
+My work focuses on turning complex requirements into structured, testable systems—with clear component boundaries, observable behavior, documented decisions, and explicit verification gates.
 
-## What I sell
-AI agent builds · full-stack product/MVP builds · API integrations & automation · audio mastering (measured, 3 versions, rescue work)
-→ Contract inquiries: reach me through LinkedIn (Kimani Dudley, Warner Robins, GA)
+## Areas of focus
 
-*I build music, creator, and street-culture tech from inside the life.*
+- **Full-stack product engineering** — application architecture, APIs, integrations, and responsive product experiences.
+- **Systems architecture & verification** — lifecycle design, fail-closed change gates, evidence, and auditability.
+- **AI and agent infrastructure** — routing, memory, tool integration, and coordinated workflows.
+- **Creative technology** — music and creator tools, audio workflows, and interactive experiences.
+
+## Selected work
+
+Some projects are private or in active development. Their descriptions distinguish documented architecture from deployment or production status.
+
+### Level0
+
+**Simple:** A structured approach to governing and verifying changes across software workflows.
+
+**Complex:** The Level0 project family includes a fail-closed Node.js change protocol and a persistent verifier. The protocol runs candidate changes in an isolated temporary worktree, executes configured gates, and records failures as open items. It does not merge, push, or deploy changes.
+
+### LoBO
+
+**Simple:** An AI-agent ecosystem for routing work, coordinating agents, and maintaining verifiable workflow memory.
+
+**Complex:** The core architecture includes a routing supervisor, agent integrations, an append-only LORE record, job coordination, checkpoints, and verification-oriented tests. Individual deployment and runtime claims are kept separate from repository architecture.
+
+### NDRAP
+
+**Simple:** A creator-focused music platform exploring song-card collection, competitive battles, and creator participation.
+
+**Complex:** The monorepo contains web application surfaces, a deterministic FastAPI engine, Supabase-backed state, exchange services, and Solidity contracts. Production readiness remains conditional on live infrastructure, security, deployment, device, load, backup, and restore verification.
+
+### Space Bike
+
+**Simple:** A mobile and edge transport companion for the LoBO ecosystem.
+
+**Complex:** The vehicle-only service is designed to carry sessions, sealed checkpoints, and completed jobs between an edge device and the home system. It does not make routing decisions or own the authoritative ledger. The repository documents that it is not yet deployed.
+
+## Engineering principles
+
+- Verify behavior; do not infer it from a successful build or static wiring.
+- Separate architecture, implementation, deployment, and production readiness.
+- Prefer fail-closed gates for changes that cannot be verified.
+- Preserve provenance and record meaningful decisions.
+- Document known gaps instead of hiding them.
+
+## Technologies represented in my project work
+
+TypeScript · JavaScript · Node.js · Python · FastAPI · APIs · Supabase · PostgreSQL · Solidity · Playwright and automated testing
+
+*This profile describes areas of work and selected projects. It does not imply that every project is public, commercially available, or production-deployed.*
